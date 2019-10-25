@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harjoitus1</title>
+    <script src="jquery.js"></script>
+
+    <style>
+        p{
+            padding: 15px;
+            background: #90EE;
+        }
+    </style>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        
+        $(".piiloon-nappi").click(function(){
+            $("p").hide();
+        });
+
+        $(".esiin-nappi").click(function(){
+            $("p").show();
+        });
+    });
+    </script>
+</head>
+<body>
+    <button type="button" class="piiloon-nappi">Piilota</button>
+    <button type="button" class="esiin-nappi">Näytä</button>
+    <p>"asadasdasdasdads"</p>
+    <p>harjotus on tämä</p>
+    <p>qwerasdt</p>
+</body>
+</html>
