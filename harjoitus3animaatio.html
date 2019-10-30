@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="animaatio.css">
+    <meta charset="UTF-8">
+    <title>Animaatio</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".box")
+            .animate({width: "300px"})
+            .animate({height: "300px"})
+            .animate({marginLeft: "150px"})
+            .animate({borderWidth: "10px"})
+            .animate({opacity: 0.5});
+    });
+});
+</script>
+</head>
+<body>
+    <button type="button">Suurenna laatikkoa</button>
+    <div class="box"><img src="image/meme.jpg" class="meme"></div>
+</body>
+</html>                  

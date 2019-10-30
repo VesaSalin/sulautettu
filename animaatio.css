@@ -1,0 +1,31 @@
+.meme {
+    width:70%;
+    height:70%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1; /* näkyvä */
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.meme:hover {
+    opacity: 0; /* häivitys */
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: #9d7ede;
+    margin-top: 30px;
+    border-style: solid; /* Required to animate border width */
+    border-color: #6f40ce;
+    position: relative;
+}
+body {
+    background-color: rgb(25, 26, 26);
+    font-family: Arial;
+}
