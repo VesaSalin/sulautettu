@@ -16,13 +16,13 @@
 .meme:hover {
     opacity: 0; /* häivitys */
 }
-.box {
-    width: 200px;
-    height: 200px;
-    background: #9d7ede;
+.box { /* laatikko */
+    width: 200px; /* leveys */
+    height: 200px; /* korkeus */
+    background: #9d7ede; /* laatikon väri */
     margin-top: 30px;
     border-style: solid; /* Required to animate border width */
-    border-color: #6f40ce;
+    border-color: #6f40ce; /* laatikon reunan väri */
     position: relative;
 }
 body {
